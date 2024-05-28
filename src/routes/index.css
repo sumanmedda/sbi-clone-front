@@ -1,0 +1,96 @@
+.custom-input-text{
+    margin-bottom: 10px;
+    display: grid;
+}
+
+.custom-link-button{
+    padding: 10px;
+    border: 1px solid #005C7A;
+    max-width: 15%;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.bottom-links-custom{
+    color: #065C79;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.marquee-text {
+    background-color: rgb(226, 247, 253);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: #A80000;
+}
+
+.item-text{
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.personal_icon {
+    background-position: -13px -88px;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin: 7px 0px;
+}
+
+.custom-middle-box{
+    padding-bottom: 10px
+}
+
+.custom-btn {
+    text-decoration: none;
+    background-color: #003366;
+    color: white;
+    padding: 2px 20px 2px 20px;
+}
+
+.custom-btn2 {
+    text-decoration: none;
+    background-color: #022D58;
+    color: white;
+    padding: 2px 12px 2px 12px;
+}
+
+.blink-text{
+    margin-bottom: 10px;
+}
+
+.custom-home-container{
+    margin-top: 20px;
+    border: 1px solid;
+    border-color: rgba(121, 121, 121, 0.212);
+    border-radius: 3px;
+}
+
+.cache_blink {
+    -webkit-animation: NAME-YOUR-ANIMATION 1s infinite;  /* Safari 4+ */
+    -moz-animation: NAME-YOUR-ANIMATION 1s infinite;  /* Fx 5+ */
+    -o-animation: NAME-YOUR-ANIMATION 1s infinite;  /* Opera 12+ */
+    animation: NAME-YOUR-ANIMATION 1s infinite;  /* IE 10+, Fx 29+ */
+  }
+  
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+    0%, 32% {
+      color: rgb(117, 209, 63);
+    }
+    33%, 65% {
+        color: #2441E5;
+        
+      }
+    66%, 100% {
+        color: #e50000;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .custom-link-button{
+        max-width: 80%;
+    }
+  }
